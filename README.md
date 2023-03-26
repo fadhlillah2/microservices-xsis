@@ -11,10 +11,10 @@ Prerequisites
 Installation
 To run the project, follow these steps:
 
-Clone the repository
-Create a MySQL database named movie_db
-Update the database connection properties in application.properties
-Run the project using ./mvnw spring-boot:run
+1.Clone the repository
+2.Create a MySQL database named movie_db
+3.Update the database connection properties in application.properties
+4.Run the project using ./mvnw spring-boot:run
 
 Data Model
 The data model for this CRUD application consists of a single entity: MovieEntity. The Product entity has the following properties:
