@@ -1,0 +1,34 @@
+GET localhost:8082/Movies
+
+###
+
+GET localhost:8082/Movies/1
+
+###
+POST localhost:8082/Movies
+Content-Type: application/json
+
+{
+  "title": "Pengabdi Setan 2 Comunion",
+  "description": "adalah sebuah film horor Indonesia tahun 2022 yang disutradarai dan ditulis oleh Joko Anwar sebagai sekuel dari film tahun 2017, Pengabdi Setan.",
+  "rating": 7.2,
+  "image": "",
+  "createdAt": "2023-03-01T10:00:00",
+  "updatedAt": "2023-03-01T10:00:00"
+}
+
+###
+PATCH localhost:8082/Movies/1
+Content-Type: application/json
+
+{
+  "title": "Pengabdi Setan 2 Comunion",
+  "description":"",
+  "rating": 9,
+  "image": ""
+}
+
+###
+
+DELETE localhost:8082/Movies/1
+
