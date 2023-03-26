@@ -17,14 +17,14 @@ To run the project, follow these steps:
 4. Run the project using ./mvnw spring-boot:run
 
 ### Data Model
-The data model for this CRUD application consists of a single entity: MovieEntity. The Product entity has the following properties:
+The data model for this CRUD application consists of a single entity: MovieEntity. The Movie entity has the following properties:
 
-id: The unique identifier for the product
-name: The name of the product
-description: A brief description of the product
-price: The price of the product
-createdAt: The date and time when the product was created
-updatedAt: The date and time when the product was last updated
+- id: The unique identifier for the product
+- name: The name of the product
+- description: A brief description of the product
+- price: The price of the product
+- createdAt: The date and time when the product was created
+- updatedAt: The date and time when the product was last updated
 
 ### API Endpoints
 The following API endpoints are available:
