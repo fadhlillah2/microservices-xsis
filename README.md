@@ -43,7 +43,8 @@ This application does not require authentication or authorization to access the 
 This application includes unit tests for the MovieController and MovieServiceImpl classes. To run the tests, execute ./mvnw test.
 
 ### Deployment
-To deploy this application to a production environment, you can create a Docker image and deploy it to a container orchestration platform like Kubernetes. An example Dockerfile and Kubernetes deployment manifest are provided in the deploy directory.
+To deploy this application to a production environment, you can create a Docker image and deploy it to a container orchestration platform like Kubernetes.
+But in this case, the usage of docker is (still developing).
 
 ### Contributing
 If you would like to contribute to this project, please create a pull request with your changes. Please ensure that all tests pass before submitting the pull request.
