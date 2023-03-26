@@ -19,7 +19,7 @@ To run the project, follow these steps:
 ### Data Model
 The data model for this CRUD application consists of a single entity: MovieEntity. The Movie entity has the following properties:
 
-- id: The unique identifier for the title
+- id: The unique identifier for the movie
 - title: The title of the movie
 - description: A brief description of the movie
 - rating: The rating of the movie
