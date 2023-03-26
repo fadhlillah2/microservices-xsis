@@ -1,6 +1,6 @@
 # microservices-xsis
 
-### Movie Management API
+# Movie Management API
 This is a Java Spring Boot application that provides a RESTful API for managing movies.
 
 Prerequisites
@@ -8,7 +8,7 @@ Prerequisites
 - Spring Boot 2.5.0
 - MySQL 14
 
-Installation
+### Installation
 To run the project, follow these steps:
 
 1. Clone the repository
