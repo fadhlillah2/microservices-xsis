@@ -19,28 +19,28 @@ To run the project, follow these steps:
 ### Data Model
 The data model for this CRUD application consists of a single entity: MovieEntity. The Movie entity has the following properties:
 
-- id: The unique identifier for the product
-- name: The name of the product
-- description: A brief description of the product
-- price: The price of the product
-- createdAt: The date and time when the product was created
-- updatedAt: The date and time when the product was last updated
+- id: The unique identifier for the title
+- title: The title of the movie
+- description: A brief description of the movie
+- rating: The rating of the movie
+- createdAt: The date and time when the movie was created
+- updatedAt: The date and time when the movie was last updated
 
 ### API Endpoints
 The following API endpoints are available:
 
-GET /products: Returns a list of all products
-GET /products/{id}: Returns the product with the specified ID
-POST /products: Creates a new product
-PUT /products/{id}: Updates the product with the specified ID
-DELETE /products/{id}: Deletes the product with the specified ID
-The request and response format for each endpoint can be found in the Swagger UI at http://localhost:8080/swagger-ui.html.
+- GET /Movies: Returns a list of all movies
+- GET /Movies/{id}: Returns the movie with the specified ID
+- POST /Movies: Creates a new movie
+- PATCH /Movies/{id}: Updates the movie with the specified ID
+- DELETE /Movies/{id}: Deletes the movie with the specified ID
+
 
 ### Authentication and Authorization
 This application does not require authentication or authorization to access the API endpoints.
 
 ### Testing
-This application includes unit tests for the ProductController and ProductService classes. To run the tests, execute ./mvnw test.
+This application includes unit tests for the MovieController and MovieServiceImpl classes. To run the tests, execute ./mvnw test.
 
 ### Deployment
 To deploy this application to a production environment, you can create a Docker image and deploy it to a container orchestration platform like Kubernetes. An example Dockerfile and Kubernetes deployment manifest are provided in the deploy directory.
