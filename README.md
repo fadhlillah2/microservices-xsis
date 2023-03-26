@@ -4,7 +4,7 @@
 This is a Java Spring Boot application that provides a RESTful API for managing movies.
 
 Prerequisites
-Java 17
+- Java 17
 Spring Boot 2.5.0
 MySQL 14
 Installation
